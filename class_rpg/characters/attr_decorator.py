@@ -23,14 +23,14 @@ class Character:
 
 # 사용 예제
 # 변수 = Character("이름", HP, MP, DF, mDF, atk, matk, speed)
-warrior = Character("Hero", 160, 50, 15, 12, 13, 12, 6)
-mage = Character("Mage", 80, 120, 8, 15, 8, 20, 3)
-ranger = Character("Ranger", 120, 70, )
+warrior = Character("Hero", 160, 50, 15, 12, 13, 12, 6, 2)
+mage = Character("Mage", 80, 120, 8, 15, 8, 20, 3, 4)
+ranger = Character("Ranger", 120, 70, 5)
 log = Character("Log", 110, 80, 10, 10, 15, 12, )
 
 enemy = Character(name="Enemy", hp=90, matk=30)
 
-# print(hero.status(), "\n")
-# print(mage.status(), "\n")
-# print(enemy.status(), "\n")
-
+print(warrior.status(), "\n")
+print(mage.status(), "\n")
+print(ranger.status(), "\n")
+print(log.status(), "\n")
